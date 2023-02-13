@@ -3,7 +3,7 @@ import { todoReducer } from './todoReducer';
 
 const initialState = [];
 
-export const useTodo = () => {
+export const useTodos = () => {
     const init = () => {
         return JSON.parse(localStorage.getItem('todos')) || [];
     }
